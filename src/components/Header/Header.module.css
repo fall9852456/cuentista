@@ -1,0 +1,25 @@
+.Header{
+    margin-top: 25px;
+  }
+  .header1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+  }
+  .mainheader{
+    width: 192px;
+    font-size: 2.5rem;
+   
+  }
+  .header2{
+    display: flex;
+    justify-content:space-around;
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .secondheader{
+    font-size: 2rem;
+  }
+  

@@ -1,6 +1,8 @@
+import React from "react"
+import styles from "./Container.module.css"
 export default function Container() {
     return (
-        <div className="container">
+        <div className={styles.container}>
             <section className="firstpicture">
                 <div className="border border-secondary border-1 rounded overflow-hidden">
                     <a href="/">

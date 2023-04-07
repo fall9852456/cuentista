@@ -1,7 +1,7 @@
 import Header from "../components/Header"
 import Container from "../components/Container"
 import Footer from "../components/Footer"
-
+import Carousel from "../components/carousel/index"
 function Home() {
     return (
         <div className="table-of-contents">
@@ -11,12 +11,7 @@ function Home() {
 
 
             />
-            <carousel
-                className="contents-carouselr"
-
-
-
-            />
+             <Carousel/>
             <Container
                 className="contents-container"
 

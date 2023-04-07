@@ -1,7 +1,9 @@
+import React from "react"
+import styles from "./Footer.module.css"
 export default function Footer() {
     return (
-        <div className="Footer">
-            <div className="left-footer">
+        <div className={styles.Footer}>
+            <div className={styles.leftfooter}>
                 <div>
                     關於我們
                 </div>
@@ -12,7 +14,7 @@ export default function Footer() {
                     網頁設計:林詔慰
                 </div>
             </div>
-            <div className="right-footer">
+            <div className={styles.rightfooter}>
                 <div>
                     社群網站
                 </div>
