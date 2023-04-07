@@ -1,0 +1,96 @@
+
+.table-of-contents{
+  display: grid;
+  margin-left: 200px;
+  margin-right: 200px;
+  min-height: 100vh;
+  grid-template-areas: 
+    'header'
+    'content'
+    'footer'
+  ;
+  grid-template-rows: auto 1fr auto;
+}
+
+.contents-header {
+  grid-area: header;
+  padding: 0;
+  height: auto;
+  line-height: 1.6;
+
+}
+
+.contents-footer {
+  grid-area: footer;
+  padding: 0;
+  height: auto;
+  line-height: 1.6;
+
+}
+
+.contents-container {
+  grid-area: content;
+}
+
+
+
+
+/* Header區塊 */
+.Header{
+  margin-top: 25px;
+}
+.header1{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+.main-header{
+  width: 192px;
+  font-size: 2.5rem;
+ 
+}
+.header2{
+  display: flex;
+  justify-content:space-around;
+  background-color: black;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.second-header{
+  font-size: 2rem;
+}
+
+/* carousel區塊 */
+.wrap{
+  width:300px;
+  outline: none;
+}
+img{
+  border: 4px solid transparent;
+border-radius: 4px;
+margin: auto;
+transition-duration: 300ms;
+max-width: 100%;
+}
+img:hover{
+  border: 4px solid rgba(249, 249, 249, 0.8);
+}
+/* Container區塊 */
+
+.container{
+background-color: black;
+
+}
+
+
+
+
+/* Footer區塊 */
+.Footer{
+  padding: 30px;
+  background-color: black;
+  color: white;
+display: flex;
+justify-content:space-around;
+}
