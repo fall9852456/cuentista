@@ -2,9 +2,10 @@ import Header from "../components/Header"
 import Container from "../components/Container"
 import Footer from "../components/Footer"
 import Carousel from "../components/carousel/index"
+import products from "../Json/new.json";
 function Home() {
     return (
-        <div className="table-of-contents">
+        <div className="container table_of-contents">
             <Header
                 className="contents-header"
 
@@ -12,8 +13,8 @@ function Home() {
 
             />
              <Carousel/>
-            <Container
-                className="contents-container"
+            <Container products={products}
+            className="contents-container"
 
 
 
