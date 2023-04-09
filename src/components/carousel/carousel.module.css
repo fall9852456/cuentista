@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.carousel{
+padding: 5rem;
+background-color: black;
+color: #f0f8ff;
+}
+.box{
+background-color: aquamarine;
+height: 300px;
+width: auto;
+}
+.box h3{
+  text-align: center;
+
+}
+

@@ -1,26 +1,32 @@
 import Header from "../components/Header"
 import Container from "../components/Container"
 import Footer from "../components/Footer"
-import Carousel from "../components/carousel/index"
+import Carousel from "../components/carousel"
 import products from "../Json/new.json";
+import movies from "../Json/movie.json";
 function Home() {
     return (
-        <div className="container table_of-contents">
+        <div id="mainLayout">
             <Header
-                className="contents-header"
+                id="layoutHeader"
 
 
 
             />
-             <Carousel/>
+             <Carousel 
+             id="layoutcarousel"
+
+
+             
+             />
             <Container products={products}
-            className="contents-container"
+            id="layoutContent"
 
 
 
             />
             <Footer
-                className="contents-footer"
+                id="layoutFooter"
 
 
 

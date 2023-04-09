@@ -1,5 +1,7 @@
+import { Link } from 'react-router-dom';
 import React from "react"
 import styles from "./Header.module.css"
+import NavBar from "../Navbar";
 export default function Header() {
     return (
         <div className={styles.Header}>
@@ -10,9 +12,11 @@ export default function Header() {
                 <div className={styles.mainheader}>
                     推廣
                 </div>
+                <Link to={`/home`}>
                 <div className={styles.mainheader}>
                     HOME
                 </div>
+                </Link>
                 <div className={styles.mainheader}>
                     最近按讚
                 </div>
@@ -20,29 +24,7 @@ export default function Header() {
                     我的帳戶
                 </div>
             </div>
-            <div className={styles.header2}>
-                <div className={styles.secondheader}>
-                    療癒
-                </div>
-                <div className={styles.secondheader}>
-                    校園
-                </div>
-                <div className={styles.secondheader}>
-                    奇幻
-                </div>
-                <div className={styles.secondheader}>
-                    愛情
-                </div>
-                <div className={styles.secondheader}>
-                    恐怖
-                </div>
-                <div className={styles.secondheader}>
-                    懸疑
-                </div>
-                <div className={styles.secondheader}>
-                    搞笑
-                </div>
-            </div>
+           <NavBar />
         </div>
     );
 }
