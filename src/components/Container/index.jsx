@@ -8,8 +8,8 @@ export default function Container({products}) {
           {products.map(product=>(
               <Col
               key={product.id}
-              sm={{span:16}}
-              lg={{ span: 12 }}
+              sm={{span:32}}
+              md={{ span: 12 }}
               xl={{ span: 8 }}
             >
             <Content  product={product}/>

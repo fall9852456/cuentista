@@ -1,41 +1,25 @@
 /* RWD Container */
-.container {
+#container {
   width: 100%;
   display: flex;
   align-self: center;
-  margin: auto;
-}
+  margin-right:200px ;
+  margin-left:200px;
 
-@media (min-width: 576px) {
-.container {
-  width: 540px;
 }
-} 
 
 @media (min-width: 768px) {
-.container {
-  width: 720px;
+#container {
+  width: 768px;
 }
-} 
+.slick-list{
+  width:200px;
+height: 300px;
 
-@media (min-width: 992px) {
-.container {
-  width: 960px;
-}
-} 
-
-@media (min-width: 1200px) {
-.container {
-  width: 1140px;
 }
 } 
 
 
-@media (min-width: 1600px) {
-.container {
-  width: 1500px;
-}
-} 
 body {
   font-size: 16px;
   line-height: 1.6;
@@ -44,8 +28,7 @@ body {
 #mainLayout {
   display: grid;
   min-height: 100vh;
-  margin-right:200px ;
-  margin-left:200px;
+ 
   grid-template-areas: 
     "Header"
     "carousel"
@@ -85,23 +68,19 @@ gap: 1px;
 }
 /* carousel */
 .slick-list{
-  width:1300px;
+  width:2000px;
 height: 300px;
-margin: 0 1rem;
-}
-.slick-slide {
-  margin-right:1rem; 
-}
 
+}
 .slick-arrow{
-  right: -30px;
+  right: -100px;
 }
 .slick-dots li.slick-active button:before{
-color:lightgreen !important;
+color:rgb(134, 134, 134) !important;
 
 }
 .slick-dots li button:before{
-color:white !important;
+color:rgb(255, 255, 255) !important;
 font-size: 1rem !important;
 top:2rem !important;
 }

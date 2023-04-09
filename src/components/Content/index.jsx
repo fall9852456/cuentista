@@ -18,6 +18,10 @@ export default function Content( { product }) {
             <p className={styles.description}>
             {product.description}
             </p>
+            <span
+                  className={styles.textGray}>
+                  USD {product.price}.00
+               </span>
             </div>
           </div>
     );

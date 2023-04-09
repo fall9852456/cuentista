@@ -5,7 +5,7 @@ import Footer from "../components/Footer"
 import Container from "../components/Container";
 import Carousel from "../components/carousel"
 import products from "../Json/new.json"
-
+import movie from "../Json/movie.json";
 function Category() {
     const { categoryName } = useParams();
     const _products = products.filter(
@@ -14,14 +14,14 @@ function Category() {
     
 
         return (
-            <div id="mainLayout">
+            <div id="container mainLayout">
                 <Header
                     id="layoutHeader"
     
     
     
                 />
-                 <Carousel 
+                 <Carousel movie={movie} 
                  id="layoutcarousel"
     
     

@@ -4,6 +4,7 @@ import Footer from "../components/Footer"
 import ProductDetail from "../components/Contentdetail";
 import Carousel from "../components/carousel"
 import products from "../Json/new.json";
+import movie from "../Json/movie.json";
 function Product() {
    const { productId } = useParams();
    const product = products.find(
@@ -11,11 +12,11 @@ function Product() {
    );
 
    return (
-      <div id="mainLayout">
+      <div id="container mainLayout">
          <Header
             id="layoutHeader"
          />
-          <Carousel/>
+          <Carousel movie={movie}/>
          <ProductDetail product={product} id="layoutContent"
  />
          <Footer id="layoutFooter" />

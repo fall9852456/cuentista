@@ -3,35 +3,37 @@ import Container from "../components/Container"
 import Footer from "../components/Footer"
 import Carousel from "../components/carousel"
 import products from "../Json/new.json";
-import movies from "../Json/movie.json";
+import movie from "../Json/movie.json";
+
 function Home() {
     return (
-        <div id="mainLayout">
-            <Header
-                id="layoutHeader"
+            <div id="container mainLayout">
+                <Header
+                    id="layoutHeader"
 
 
 
-            />
-             <Carousel 
-             id="layoutcarousel"
-
-
-             
-             />
-            <Container products={products}
-            id="layoutContent"
+                />
+                <Carousel movie={movie}
+                    id="layoutcarousel"
 
 
 
-            />
-            <Footer
-                id="layoutFooter"
+                />
+                <Container products={products}
+                    ide="layoutContent"
 
 
 
-            />
-        </div>
+                />
+                <Footer
+                    id="layoutFooter"
+
+
+
+                />
+            </div>
+    
     )
 
 

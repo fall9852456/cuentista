@@ -33,7 +33,7 @@
    color: white;
     opacity: 0.6;
     font-size: 1rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
  }
  
  .wrap {
@@ -43,4 +43,14 @@
  
  .price {
     font-size: 1.5rem;
+    color: white;
+    margin-bottom: 12px;
+ }
+ .status{
+   color:white ;
+   opacity: 0.6;
+ }
+ .qty{
+   color:white ;
+   margin-bottom: 12px;
  }

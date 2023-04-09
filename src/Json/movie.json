@@ -1,37 +1,28 @@
 [
     {
         "id":"sdefds",
-      "name": "coco",
-      "url": "https://www.themoviedb.org/t/p/w220_and_h330_face/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg"
+      "image": "/images/4.png"
     },
     {
         "id":"regdfs",
-      "name": "Orphan: First Kill",
-      "url": "https://www.themoviedb.org/t/p/w220_and_h330_face/pHkKbIRoCe7zIFvqan9LFSaQAde.jpg"
+        "image": "/images/1.png"
     },
     {
         "id":"sdrgehhs",
-      "name": "Top Gun: Maverick",
-      "url": "https://www.themoviedb.org/t/p/w220_and_h330_face/62HCnUTziyWcpDaBO2i1DX17ljH.jpg"
-    },
+        "image": "/images/2.png"   
+   },
     {
         "id":"swegwgs",
-      "name": "One Piece Film Red",
-      "url": "https://www.themoviedb.org/t/p/w220_and_h330_face/m80kPdrmmtEh9wlLroCp0bwUGH0.jpg"
-    },
+   
+        "image": "/images/3.png"
+          },
     {
         "id":"sddedfes",
-      "name": "Spider-Man: No Way Home",
-      "url": "https://www.themoviedb.org/t/p/w220_and_h330_face/uJYYizSuA9Y3DCs0qS4qWvHfZg4.jpg"
-    },
+    
+        "image": "/images/5.png"    },
     {
         "id":"sefwtgds",
-      "name": "Lightyear",
-      "url": "https://www.themoviedb.org/t/p/w220_and_h330_face/65WFr1ZMAbEniIh4jEhbRG9OHHN.jpg"
-    },
-    {
-        "id":"sdefds",
-      "name": "Welcome to the Club",
-      "url": "https://www.themoviedb.org/t/p/w220_and_h330_face/kxB9E6fo0ycHzd13oOTHmGa5Njd.jpg"
-    }
-  ]
+  
+        "image": "/images/6.png"    }
+    
+    ]
