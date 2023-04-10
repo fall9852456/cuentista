@@ -2,19 +2,19 @@
   {
    "id": "1tE4nK",
    "category": "療癒",
-    "name": "Elden Ring",
-     "image": "/images/1.png",
+    "name": "小林家的女僕龍",
+     "image": "/images/9.png",
      "price": 35,
-     "description": "The Pom Pom cushion 45x45 cm from the Swedish By On is a pure dream for those who love soft and cosy styles of decor. This wonderful cushion.",
+     "description": "調和陣營的第二把交椅緹妮親手策劃了艾瑪的政治聯姻。與順從地接受此樁婚事，願意返回龍族世界的艾瑪之想法相左，終究還是無法認同的小林小姐和朵露，因此重新審視各自的立場、彼此關係及想法。龍與人類戮力奔走，最後所得到的答案是…!?",
      "countInStock": 10    
  },
     {
      "id": "IuFGYl",
       "category": "校園",
-    "name": "約會大作戰",
-    "image": "/images/2.png",
+    "name": "輝夜姬想讓人告白",
+    "image": "/images/11.png",
     "price": 69,
-     "description": "The beautiful Rustic mug from House Doctor is made of ceramics and has an appealing glaze in grey and blue that contributes to a rustic fghgfdgdf .",
+     "description": "學生會會長．白銀御行與副會長．四宮輝夜在精英雲集的秀知院學園相遇…。雖然這２個天才兩情相悅，彼此卻一直設法要讓對方愛上自己、主動向自己告白，為達此目的，他們將在日常生活中使出渾身解數鉤心鬥角，演出全新感覺的愛情喜劇！",
      "countInStock": 5   
     },
     {
@@ -23,7 +23,7 @@
    "name": "異世界歸來的舅舅",
     "image": "/images/3.png",
     "price": 82,
-    "description": "Cas plays modern with rustic wood, framing the rich color and defined grain of natural oak veneer in dark grey high-gloss lacquer  rgeegcdgfgf.",
+    "description": "舅舅透過金錢的力量從腐敗的司法牢籠中重獲自由。在途中造訪「煉獄溫泉」時，他拋下怠惰的尼特族少女跟翠踏上兩人的旅程",
     "countInStock": 3    
   },
  {
@@ -32,25 +32,25 @@
    "name": "出租女友",
     "image": "/images/4.png",
     "price": 63,
-     "description": "Renew your home with the trendy Silvia lamp in white designed by the Danish brand Umage / Vita. Silvia is a lampshade made of polypropylene.",
+     "description": "行……對客人……有喜歡的心情……從衝擊的吻而開始的「女友宣言」－－。高潮迭起的Hawaiians篇終於完結！計劃以失敗做收的麻美，心裡有什麼想法？另一方面，和也將在慌張失措的狀態下，對水原問起那個吻的真意！２人的關係是否發生劇烈變化？舞台再度回到東京－－。LOVE&緊張MAX的出租生活進入新境地的27集!",
      "countInStock": 1 
   },
   {
      "id": "x5m8g3",
     "category": "恐怖",
-      "name": "NARUTO",
-     "image": "/images/5.png",
+      "name": "伊藤潤二",
+     "image": "/images/13.png",
      "price": 100,
-       "description": "The High Dot stool leather from Fritz Hansen is a stable little seat made from premium leather and three legs of quality steel hhjfffgdfgdfg.",
+       "description": "從南美叢林部落收到的蜂蜜──被那甘美滋味所迷惑的人們，等待著他們的是何種可怕的命運？除了標題作「潰談」之外，共收錄了14篇短篇傑作。",
        "countInStock": 0    
   },
  {
   "id": "5183pq",
   "category": "懸疑",
-   "name": "我和班上最討厭的女生結婚了",
-    "image": "/images/6.png",
+   "name": "今際之國的闖關者",
+    "image": "/images/12.png",
     "price": 43,
-    "description": "The Satake Kuro Chopper is a handmade and rough forged knife of exceptional quality. It has been developed with a focus on sharpness, precision ",
+    "description": "與紅心Q的決戰「遊戲」──「槌球」已經打到最後階段的第３場，有栖也看透未來的企圖。就在未來終於認輸的瞬間，有栖卻開始出現異狀……究竟他能不能順利打完比賽，贏得這場「遊戲」？「今際之國」的存在之謎終於要揭曉了……！ ",
     "countInStock": 2  
    }
     ]

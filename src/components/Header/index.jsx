@@ -12,7 +12,7 @@ export default function Header() {
                 <div className={styles.mainheader}>
                     推廣
                 </div>
-                <Link to={`/home`}>
+                <Link to="/">
                 <div className={styles.mainheader}>
                     HOME
                 </div>
